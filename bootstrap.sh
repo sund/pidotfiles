@@ -14,11 +14,6 @@ set -e
 ## functions
 #
 
-# fix missing ~/.vim/backups & ~/.vim/swaps
-if [ ! -f ~/.vim/backups ]; then mkdir -p ~/.vim/backups; fi
-if [ ! -f ~/.vim/swaps ]; then mkdir -p ~/.vim/swaps; fi
-}
-
 function updateRepo() {
     git pull
 }
