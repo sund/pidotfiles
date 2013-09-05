@@ -138,4 +138,4 @@ echo '  All installed!'
 #
 
 unset getGist
-source ~/.bash_profile
+source ~/.bashrc
