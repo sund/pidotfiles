@@ -8,6 +8,7 @@ dotfiles repo for raspberry pi
 #### set the editor OR f*ck nano
 
 ```bash
+sudo apt-get install vim
 sudo update-alternatives --config editor
 ```
 
