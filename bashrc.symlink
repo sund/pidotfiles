@@ -110,3 +110,9 @@ fi
 ## nano?! really??
 export VISUAL=vim
 export EDITOR=vim
+
+###
+## Aliases
+#
+
+alias aptitup="sudo apt-get update && sudo apt-get upgade"
