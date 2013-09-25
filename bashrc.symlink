@@ -115,4 +115,9 @@ export EDITOR=vim
 ## Aliases
 #
 
+# if ack-grep installed, then alias it right
+if which ack-crep > /dev/null ; then alias ack=ack-grep ; fi
+
 alias aptitup="sudo apt-get update && sudo apt-get upgade"
+
+
